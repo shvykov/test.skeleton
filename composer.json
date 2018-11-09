@@ -16,7 +16,7 @@
   ],
   "scripts": {
     "post-package-install": [
-      "php scripts/install.php"
+      "SRomko\\Events::postPackageInstall"
     ]
   }
 }
