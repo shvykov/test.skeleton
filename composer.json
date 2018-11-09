@@ -18,5 +18,8 @@
     "post-install-cmd": [
       "php install/cli.php"
     ]
+  },
+  "extra": {
+    "installer-name": "test.skeleton"
   }
 }
