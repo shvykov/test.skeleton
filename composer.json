@@ -16,7 +16,7 @@
   ],
   "scripts": {
     "post-install-cmd": [
-      "php lib/cli.php"
+      "php scripts/install.php"
     ]
   }
 }
