@@ -1,10 +1,14 @@
 <?php
 
-namespace SRomko;
+namespace TestComposerInstaller;
 
 use Composer\Script\Event;
 use Composer\Installer\PackageEvent;
 
+/**
+ * Class Events
+ * @package TestComposerInstaller
+ */
 class Events
 {
     public static function postPackageInstall(PackageEvent $event)

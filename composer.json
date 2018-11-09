@@ -14,9 +14,14 @@
       "role": "Developer"
     }
   ],
+  "autoload": {
+    "psr-4": {
+      "TestComposerInstaller\\": "scripts/TestComposerInstaller"
+    }
+  },
   "scripts": {
     "post-package-install": [
-      "SRomko\\Events::postPackageInstall"
+      "TestComposerInstaller\\Events::postPackageInstall"
     ]
   }
 }
