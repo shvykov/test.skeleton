@@ -8,9 +8,8 @@ define("NOT_CHECK_PERMISSIONS", true);
 define('CHK_EVENT', true);
 
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/modules/main/include/prolog_before.php");
-require(__DIR__ . '/../install/index.php');
 
 $oModule = \CModule::CreateModuleObject('s_romko.skeleton');
 $oModule->DoInstall();
 
-echo 'ok';
+file_put_contents(__DIR__ . '/test', 'This is test');
