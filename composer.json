@@ -14,7 +14,9 @@
       "role": "Developer"
     }
   ],
-  "extra": {
-    "bitrix-dir": "../local"
+  "scripts": {
+    "post-install-cmd": [
+      "php install/cli.php"
+    ]
   }
 }
