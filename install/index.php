@@ -6,14 +6,14 @@ use Bitrix\Main\ModuleManager;
 Loc::loadMessages(__FILE__);
 
 /**
- * Class test_skeleton
+ * Class s_romko_skeleton
  */
-class test_skeleton extends CModule
+class s_romko_skeleton extends CModule
 {
     /**
      * @var string Код модуля
      */
-    var $MODULE_ID = 'test.skeleton';
+    var $MODULE_ID = 's_romko.skeleton';
 
     /**
      * test_skeleton constructor.
