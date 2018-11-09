@@ -1,5 +1,5 @@
 {
-    "name": "test/test.skeleton",
+    "name": "sr-test/test.skeleton",
     "description": "Module skeleton for bitrix D7",
     "type": "bitrix-d7-module",
     "require": {
