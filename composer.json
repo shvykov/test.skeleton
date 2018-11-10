@@ -14,14 +14,8 @@
       "role": "Developer"
     }
   ],
-  "autoload": {
-    "psr-4": {
-      "TestComposerInstaller\\": "scripts/TestComposerInstaller"
-    }
-  },
-  "scripts": {
-    "post-package-install": [
-      "TestComposerInstaller\\Events::postPackageInstall"
-    ]
+  "support": {
+    "issues": "https://github.com/shvykov/test.skeleton/issues",
+    "source": "https://github.com/shvykov/test.skeleton"
   }
 }
